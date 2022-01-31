@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <input type="text" placeholder="Enter your name">
+    <button  type="submit">Submit</button>
    <h1>Знаете ли вы?</h1>
 <ol type="I">
  <li>Николай I по горячим следам решил, что пожар Зимнего дворца вызвала свеча на ёлке.</li>
@@ -19,9 +21,22 @@
  <li>Интерес к культовым очкам возродился благодаря продакт-плейсменту.</li>
 </ol>
 
+<form>
+    <h4>Ви знали 3 или более исторических факта?</h4>
+    <input id="yes" type="radio" name="question">
+    <label for="yes">Да</label>
 
+    <input id="no" type="radio" name="question">
+    <label for="no">Нет</label>
+</form>
+<form>
+    <h4>Вас интересует всемирная история?</h4>
+    <input id="yes" type="radio" name="question">
+    <label for="yes">Да</label>
 
-
+    <input id="no" type="radio" name="question">
+    <label for="no">Нет</label>
+</form>
     
     <script src="main.js"></script>
 </body>
